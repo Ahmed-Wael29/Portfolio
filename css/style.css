@@ -456,6 +456,9 @@ section.contact form .btn {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer {
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 617px) {
