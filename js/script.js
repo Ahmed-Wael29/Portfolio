@@ -34,7 +34,7 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-// Remove (active) class form all and add to the pressed section only
+/*==================== Remove (active) class form all and add to the pressed section only ====================*/
 let links = document.querySelectorAll("header nav a");
 links.forEach((link) => {
   link.addEventListener("click", (e) => {
@@ -63,7 +63,7 @@ ScrollReveal().reveal(".home-content p, .about-content ", { origin: "right" });
 
 /*==================== typed js ====================*/
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Freelancer","Seeker"],
+  strings: ["Frontend Developer", "Freelancer", "Seeker"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
